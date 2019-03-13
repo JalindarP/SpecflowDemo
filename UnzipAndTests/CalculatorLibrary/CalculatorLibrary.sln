@@ -5,9 +5,9 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "CalculatorLibrary\Service.csproj", "{4EEA3D47-90B8-41AB-AF4D-7691E17C2877}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Tests", "..\Session\Service.Tests\Service.Tests.csproj", "{EFF34117-4B3C-41F4-B26C-FF4ADCDA9953}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Tests", "..\Service.Tests\Service.Tests.csproj", "{EFF34117-4B3C-41F4-B26C-FF4ADCDA9953}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationTests", "..\Session\AutomationTests\AutomationTests.csproj", "{ECFDEE4A-6686-438F-A5AD-EBAB2A4E42A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationTests", "..\AutomationTests\AutomationTests.csproj", "{ECFDEE4A-6686-438F-A5AD-EBAB2A4E42A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +30,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85C9685A-C6FA-4F2B-AC29-9F246E7D698E}
 	EndGlobalSection
 EndGlobal
